@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCEA Attend Hub</title>
+    <!-- <link rel="stylesheet" href="/old files/style.css"> -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+       <div class="container">
+
+        <h1>CST</h1>
+        <!-- Section Selection -->
+        <div class="sectionBox">
+            <label for="section">Section:</label>
+            <select id="section">
+                <option>A</option>
+                <option>B</option>
+            </select>
+        </div>
+
+        <!-- Subject Selection -->
+        <div class="sublist">
+            <h3>Select Subject</h3>
+
+            <div><label><input type="checkbox" class="subject"> Data Structures & Algorithms</label></div>
+            <div><label><input type="checkbox" class="subject"> Introduction to DBMS</label></div>
+            <div><label><input type="checkbox" class="subject"> Computer Networks</label></div>
+            <div><label><input type="checkbox" class="subject"> Software Engineering</label></div>
+            <div><label><input type="checkbox" class="subject"> Data Structures Lab</label></div>
+            <div><label><input type="checkbox" class="subject"> Introduction to DBMS Lab</label></div>
+            <div><label><input type="checkbox" class="subject"> Object Oriented Programming Methodology</label></div>
+            <div><label><input type="checkbox" class="subject"> Professional Skill Development</label></div>
+            <div><label><input type="checkbox" class="subject"> Mini Project</label></div>
+            <div><label><input type="checkbox" class="subject"> Essence of Indian Knowledge and Tradition</label></div>
+        </div>
+
+        <!-- Student List -->
+        <h3>Student List</h3>
+
+        <div class="searchBox">
+            <input type="text" id="searchInput" placeholder="Type student name...">
+        </div>
+        <!-- SECTION A STUDENTS -->
+        <div class="studentList sectionA">
+
+        <div><label><input type="checkbox" class="student"> Komal Saha</label></div>
+        <div><label><input type="checkbox" class="student"> Ravi Singh</label></div>
+        <!-- <div><label><input type="checkbox" class="student"> Priyanka Das</label></div> -->
+        <div><label><input type="checkbox" class="student"> Saurav Deb</label></div>
+        <div><label><input type="checkbox" class="student"> Arup Ghosh</label></div>
+
+
+        </div>
+
+        <!-- SECTION B STUDENTS -->
+        <div class="studentList sectionB" style="display:none;">
+
+            <div><label><input type="checkbox" class="student"> Rahul Sharma</label></div>
+            <div><label><input type="checkbox" class="student"> Priya Singh</label></div>
+            <div><label><input type="checkbox" class="student"> Aman Gupta</label></div>
+            <div><label><input type="checkbox" class="student"> Sneha Das</label></div>
+
+        </div>
+
+        <!-- Send Button -->
+        <button class="sendBtn">Send Attendance</button>
+
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIDS Attendance</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+<div class="container">
+
+    <h1>Artificial Intelligence & Data Science (AIDS)</h1>
+
+    <!-- Section Selection -->
+    <div class="sectionBox">
+        <label for="section">Section:</label>
+        <select id="section">
+            <option>A</option>
+            <option>B</option>
+        </select>
+    </div>
+
+    <!-- Subject Selection -->
+    <div class="sublist">
+        <h3>Select Subject</h3>
+
+        <div><label><input type="checkbox" class="subject"> Data Science</label></div>
+        <div><label><input type="checkbox" class="subject"> Machine Learning</label></div>
+        <div><label><input type="checkbox" class="subject"> Artificial Intelligence</label></div>
+        <div><label><input type="checkbox" class="subject"> Statistics for Data Science</label></div>
+        <div><label><input type="checkbox" class="subject"> Python Programming</label></div>
+        <div><label><input type="checkbox" class="subject"> Big Data Analytics</label></div>
+        <div><label><input type="checkbox" class="subject"> Data Visualization</label></div>
+        <div><label><input type="checkbox" class="subject"> Database Management System</label></div>
+        <div><label><input type="checkbox" class="subject"> Mini Project</label></div>
+        <div><label><input type="checkbox" class="subject"> Professional Skills</label></div>
+    </div>
+
+    <!-- Student List -->
+    <h3>Student List</h3>
+
+    <div class="searchBox">
+        <input type="text" id="searchInput" placeholder="Type student name...">
+    </div>
+
+    <!-- SECTION A -->
+    <div class="studentList sectionA">
+
+        <div><label><input type="checkbox" class="student"> Aarav Sharma</label></div>
+        <div><label><input type="checkbox" class="student"> Riya Das</label></div>
+        <div><label><input type="checkbox" class="student"> Aman Gupta</label></div>
+        <div><label><input type="checkbox" class="student"> Sneha Roy</label></div>
+        <div><label><input type="checkbox" class="student"> Arjun Deb</label></div>
+        <div><label><input type="checkbox" class="student"> Neha Saha</label></div>
+        <div><label><input type="checkbox" class="student"> Kunal Das</label></div>
+        <div><label><input type="checkbox" class="student"> Ankit Paul</label></div>
+        <div><label><input type="checkbox" class="student"> Nisha Ghosh</label></div>
+        <div><label><input type="checkbox" class="student"> Tanmay Roy</label></div>
+
+    </div>
+
+    <!-- SECTION B -->
+    <div class="studentList sectionB" style="display:none;">
+
+        <div><label><input type="checkbox" class="student"> Suman Das</label></div>
+        <div><label><input type="checkbox" class="student"> Rohit Roy</label></div>
+        <div><label><input type="checkbox" class="student"> Pooja Singh</label></div>
+        <div><label><input type="checkbox" class="student"> Vikash Gupta</label></div>
+        <div><label><input type="checkbox" class="student"> Anjali Das</label></div>
+        <div><label><input type="checkbox" class="student"> Deepak Paul</label></div>
+        <div><label><input type="checkbox" class="student"> Komal Saha</label></div>
+        <div><label><input type="checkbox" class="student"> Ravi Sharma</label></div>
+        <div><label><input type="checkbox" class="student"> Meena Roy</label></div>
+        <div><label><input type="checkbox" class="student"> Priyanka Das</label></div>
+
+    </div>
+
+    <!-- Send Button -->
+    <button class="sendBtn">Send Attendance</button>
+
+</div>
+<script src="/script.js"></script>
+</body>
+
+</html>
